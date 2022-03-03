@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma;
+}
+
+header ul {
+  overflow: auto;
+}
+
+header .navbar ul li {
+  float: left;
+  list-style: none;
+  margin: 4rem -4rem 0rem 8rem;
+}
+header .navbar ul li a {
+  text-decoration: none;
+  color: #919191;
+  font-weight: bold;
+}
+header .navbar ul li a:hover {
+  color: #3972a6;
+}
+header .navbar ul .nav-btn {
+  display: flex;
+  float: right;
+  margin: 4rem 8rem 0rem 8rem;
+}
+header .navbar ul .nav-btn button {
+  padding: 0.5rem 2rem;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  background-color: #296497;
+  cursor: pointer;
+}
+header .navbar ul .nav-btn button:hover {
+  background-color: #4f88b9;
+}
+/* hero section  */
+
+.hero-section {
+  width: 100%;
+  margin: 6rem 0rem 0rem 8rem;
+}
+
+.hero-section .main-txt p {
+  font-size: 3rem;
+  line-height: 4rem;
+  font-style: italic;
+  font-weight: bold;
+  color: #3a72a6;
+}
+.hero-section .main-txt span {
+  font-size: 3rem;
+  line-height: 4rem;
+  color: #3a72a6;
+}
+.hero-section .main-txt .line {
+  border: 1px solid #ffb00d;
+  width: 3rem;
+  margin-top: 2rem;
+}
+.hero-section .main-txt .para {
+  color: black;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  width: 20rem;
+  margin-top: 1rem;
+}
+.nav-btn {
+  margin-top: 3rem;
+}
+.nav-btn button {
+  padding: 0.5rem 2rem;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  background-color: #296497;
+  cursor: pointer;
+}
+.nav-btn button:hover {
+  background-color: #4f88b9;
+}
+.hero-section .illustration {
+  float: right;
+
+  margin: 2rem 15rem 0rem 0rem;
+}
+.hero-section .illustration img {
+  width: 24rem;
+}
+/* helping section starts */
+.help .items {
+  text-align: center;
+  margin-top: 10rem;
+  margin: 10rem auto;
+}
+.help .items .pa {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  color: #296497;
+}
+.help .items .pa p {
+  font-style: italic;
+}
+.help .pa span {
+  margin-left: 13px;
+  font-weight: bold;
+}
+.help .items h6 {
+  margin-top: 2rem;
+  line-height: 1.5rem;
+  font-size: small;
+}
+.help h6 span {
+  font-weight: bold;
+  color: #296497;
+}
+.help .items .line {
+  border: 1px solid #ffb00d;
+  width: 3rem;
+  margin: 2rem auto;
+}
+/* helping section ends */
+/* blocking section starts */
+
+.blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-left: 8rem;
+  place-content: center;
+}
+.blocks .block {
+  background-color: #f9f9f9;
+  width: 15rem;
+  height: 15rem;
+  text-align: center;
+  padding: 3rem 1rem;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+.blocks .block:hover {
+  border: 2px solid #ffb00d;
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+.blocks .block h3 {
+  font-size: 1.1rem;
+}
+
+.blocks .block img {
+  margin: 3rem 0 3rem 0;
+  width: 4rem;
+}
+.blocks .block p {
+  font-size: 1rem;
+}
+.seperate-line {
+  border: 0.5px solid #336c9f;
+  width: 15rem;
+  margin: 8rem auto;
+}
+/* blocking section ends */
+
+/* footer section starts */
+footer {
+  display: flex;
+}
+footer .quick-links {
+  margin: 2rem 9rem;
+}
+footer .quick-links ul {
+  margin-top: 1.5rem;
+}
+footer .quick-links ul li {
+  list-style: none;
+  margin-top: 1rem;
+}
+footer .quick-links ul li a {
+  text-decoration: none;
+  color: #919191;
+}
+footer .quick-links ul li a:hover {
+  font-weight: bold;
+  color: #4f88b9;
+}
+footer .shop-information {
+  margin: 2rem auto;
+}
+footer .shop-information p {
+  margin-top: 1rem;
+  line-height: 2rem;
+}
+footer .shop-information p span {
+  font-weight: bold;
+  color: #4f88b9;
+}
+footer .subscribe {
+  text-align: center;
+  margin-top: 2rem;
+  margin-right: 9rem;
+}
+footer .subscribe p {
+  margin-top: 1.5rem;
+}
+footer .subscribe input {
+  margin-top: 1.5rem;
+  background-color: #c8c8c8;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.2rem;
+  font-size: 15px;
+}
+
+footer .subscribe .sub-btn {
+  margin-top: 1.5rem;
+}
+footer .subscribe .sub-btn button {
+  padding: 0.5rem 3rem;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  background-color: #296497;
+  font-size: 1rem;
+  cursor: pointer;
+}
+footer .subscribe .sub-btn button:hover {
+  background-color: #4f88b9;
+}
+
+/* footer section ends */
